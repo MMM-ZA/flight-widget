@@ -1,9 +1,9 @@
 import Table from './Components/Table';
-import './index.css';
+import classes from './index.module.css';
 
 const App = () =>  {
   return (
- <div className={departures}>
+ <div className={classes.departures}>
   <header >DEPARTURES</header>
    <Table/>
  </div>
