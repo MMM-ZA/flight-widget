@@ -1,4 +1,5 @@
-import styles from './index.module.css';
+import styles from './TableHead.module.css';
+
 
 const TableHead = () =>  {
   return (
@@ -6,15 +7,15 @@ const TableHead = () =>  {
     <tr>
       <th></th>
       <th id={styles["time"]}>TIME</th>
-      <th id="destination">DESTINATION</th>
-      <th id="flight">FLIGHT</th>
-      <th id="gate">GATE</th>
-      <th id="remarks">REMARKS</th>
+      <th id={styles["destination"]}>DESTINATION</th>
+      <th id={styles["flight"]}>FLIGHT</th>
+      <th id={styles["gate"]}>GATE</th>
+      <th id={styles["remarks"]}>REMARKS</th>
 
     </tr>
 
    </thead>
   )
-}
+};
 
 export default TableHead;

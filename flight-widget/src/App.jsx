@@ -1,10 +1,10 @@
 import Table from './Components/Table';
-import classes from './index.module.css';
+import  './index.css';
 
 const App = () =>  {
   return (
- <div className={classes.departures}>
-  <header >DEPARTURES</header>
+ <div className="departures">
+  <header>DEPARTURES</header>
    <Table/>
  </div>
   )

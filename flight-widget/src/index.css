@@ -26,23 +26,3 @@ header {
   background-color: rgb(46,46,46);
   text-align: left;
 }
-
-#time {
-  width: 160px;
-}
-
- #destination {
-  width: 700px;
-}
-
-#flight {
-  width: 205px;
-}
-
-#gate {
-  width:135px
-}
-
-#remarks {
-  width: 260px;
-}
