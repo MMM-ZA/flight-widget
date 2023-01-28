@@ -1,5 +1,5 @@
 import { useState } from "react"
-import classes from './TableLetter.module.css'
+import classes from'./TableLetter.module.css'
 
 
 const TableLetter = ({ letter, index}) => {
@@ -10,7 +10,7 @@ const TableLetter = ({ letter, index}) => {
     }, 100 * index)
 
     return (
-        <div className={classes.flip ? 'flip' : null}>
+        <div className={classes[flip ? 'flip' : null]}>
             {flip ? letter : null}
         </div>
     )
