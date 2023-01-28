@@ -7,7 +7,7 @@ require('dotenv').config()
 const app = express()
 app.use(cors())
 
-app.get('/flights', (req, res) => {
+app.get('/flight', (req, res) => {
     const options = {
         url: `${process.env.URL}?page-size=6`,
         headers: {

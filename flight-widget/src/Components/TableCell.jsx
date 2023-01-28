@@ -1,7 +1,14 @@
-const TableHead = () =>  {
-  return (
- <h2>Table Head</h2>
-  )
+import TableLetter from './TableLetter'
+
+const TableCell = ({ word }) => {
+
+    return (
+        <td>
+            {Array.from(word).map((letter, index) => (
+                <TableLetter key={index} letter={letter} index={index}/>
+            ))}
+        </td>
+    )
 }
 
-export default TableHead;
+export default TableCell
